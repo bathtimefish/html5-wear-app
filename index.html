@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Android Wear Demo</title>
+    <style>
+        body{
+            margin:0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            padding:0;
+            background:#000;
+            -ms-touch-action:none;
+        }
+        #container{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+
+</head>
+<body style="">
+
+<div  id="container">
+    <canvas id="app_canvas"></canvas>
+</div>
+
+</body>
+
+<!-- CAAT -->
+<script src="Lib/caat.js"></script>
+
+<script>
+    CAAT.DEBUG=0;
+</script>
+
+<!-- APP -->
+<script src="static/js/init.js"></script>
+
+</html>
